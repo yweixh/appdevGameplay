@@ -21,7 +21,7 @@ public class EasyQuestions implements QuestionSet {
             {"Bright", "Perfect", "Specific", "Slow"},
             {"Good", "Dumb", "Clever", "Lazy"},
             {"Specific", "Show", "Curious", "Awful"},
-            {"Excellent", "Bad", "Right", "Mine"},
+            {"Excellent", "Bad", "Enjoy", "Mine"},
             {"Small", "Wrong", "Accomplished", "Still"}
     };
 
