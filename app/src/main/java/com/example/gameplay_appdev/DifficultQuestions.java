@@ -49,7 +49,7 @@ public class DifficultQuestions implements QuestionSet {
             {"Different", "Stealthy", "Brief", "Pervasive"},
             {"Confuse", "Different", "Hostile", "Uncooperative"},
             {"Virtuous", "Stubborn", "Expressible", "Complex"},
-            {"Stingy", "2", "9", "Cryptic"},
+            {"Stingy", "Loyal", "Brief", "Cryptic"},
             {"Attractive", "Quiet", "Energizing", "Generous"},
             {"Liberal", "Sneaky", "Honest", "Unattractive"},
             {"Flatterer", "Romantic", "Wicked", "Melodious"}
