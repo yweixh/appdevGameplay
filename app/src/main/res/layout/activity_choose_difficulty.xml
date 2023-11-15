@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".chooseDifficulty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChooseDifficultyTxt"
+        android:layout_centerHorizontal="true"
+        android:text="Choose difficulty"
+        android:textSize="35dp"
+        android:textColor="@color/fnt_color"
+        android:layout_marginTop="175dp"
+        android:fontFamily="@font/interphases_pro_trial_med"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EasyBtn"
+            android:text="Easy"
+            android:textSize="20dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/interphases_pro_trial_med"/>
+        <Button
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/AverageBtn"
+            android:text="Average"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/interphases_pro_trial_med"/>
+        <Button
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/DifficultBtn"
+            android:text="Difficult"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/interphases_pro_trial_med"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
